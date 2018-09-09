@@ -22,7 +22,6 @@ def main():
     draw = ImageDraw.Draw(im1)
     w1, h1 = draw.textsize(imie, font)
     w2, h2 = draw.textsize(podpis, font)
-    print w1
     draw.text((250+(1250-w1)/2, 103), imie, (0, 0, 0), font=font)
     draw.text((250+(1250-w2)/2, 153), podpis, (255, 255, 255), font=font)
     draw = ImageDraw.Draw(im1)
